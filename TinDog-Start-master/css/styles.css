@@ -1,0 +1,180 @@
+/******************** TAG SELECTORS *************************/
+
+body{
+  font-family: Montserrat;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat-bold, sans-serif';
+}
+
+h1 {
+
+      font-size: 3.5rem;
+      line-height: 1.5;
+      font-weight: 900;
+  }
+h2{
+
+      font-size: 3rem;
+      line-height: 1.5;
+  }
+
+h3{
+      
+      font-size: 1.5rem;
+      line-height: 1.5;
+      font-weight: 900;
+  }
+
+.container-fluid{
+  padding: 3% 10% 7%;
+}
+
+
+#title{
+  color:white;
+  background-color: #ff4c68;
+}
+
+
+/* Navigation Bar */
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size:2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 10px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* Download Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position:absolute;
+  right:30%;
+}
+
+#features{
+   padding: 7% 15%;
+   background-color: white;
+   position: relative;
+}
+
+/* Font awesome icons */
+
+.magic{
+color:#ef8172;
+margin: 1rem;
+
+}
+
+.magic:hover{
+  color:#ff4c68;
+}
+
+.description{
+  color:#8f8f8f;
+}
+
+.feature-box{
+  padding:5%;
+  text-align: center;
+}
+
+
+/* Testimonials Section */
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ff4c68;
+  color:#ffffff;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-picture{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+#press{
+    text-align: center;
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+}
+
+.press-image{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+/* PRICING SECTION */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-coloumn{
+  padding: 3% 2%;
+}
+
+/* CTA SECTION */
+
+#cta{
+  color: #ffffff;
+  background-color: #ff4c68;
+  padding:7% 15%;
+  text-align: center;
+
+}
+
+/* FOOTER SECTION */
+
+#footer{
+  background-color: #ffffff;
+  padding:7% 15%;
+  text-align: center;
+}
+
+.icons{
+  margin:20px 10px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media(max-width:1028px){
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position:static;
+    transform: rotate(0);
+  }
+}
